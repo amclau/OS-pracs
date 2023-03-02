@@ -12,7 +12,7 @@ class Booking extends Thread
 
     public void run()
     {
-     System.out.println("Welcome to ticket booking system "+Thread.currentThread().getName()+"!!!!!!!!!!!!!!!!!!!!!!!!!");   
+     System.out.println("Welcome to ticket booking system "+Thread.currentThread().getName());   
     System.out.println("No of ticket left :"+available);
         if(available>=require)
         {
